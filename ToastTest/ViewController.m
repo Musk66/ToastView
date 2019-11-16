@@ -27,7 +27,7 @@
     toastStyle.backgroundColor = [UIColor brownColor];
     toastStyle.titleColor = [UIColor whiteColor];
     [self.view makeToast:@"top" duration:2.0f position:CSToastPositionTop style:toastStyle];
-    [self.view makeToast:@"center" duration:2.0f position:CSToastPositionCenter style:toastStyle];
+//    [self.view makeToast:@"center" duration:2.0f position:CSToastPositionCenter style:toastStyle];
     [self.view makeToast:@"bottombottombottombottombottombottombottombottombottombottombottombottom" duration:2.0f position:CSToastPositionBottom style:toastStyle];
 }
 
